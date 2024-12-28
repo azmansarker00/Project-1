@@ -23,16 +23,21 @@
                 <ul>
                     <li><i class="fa-solid fa-bars"></i></li>
                     <li><i class="fa-solid fa-circle-half-stroke" id="dark-light"></i></li>
-                    <li><i class="fa-solid fa-cart-shopping"></i></li>
+                    <li class="shop"><i class="fa-solid fa-cart-shopping"></i></li>
                 </ul>
             </section>
 
             <section class="nav-2">
                 <ul>
-                    <li><i class="fa-solid fa-user"></i><span>ABOUT</span></li>
-                    <li><i class="fa-solid fa-paperclip"></i><span>RESUME</span></li>
-                    <li><i class="fa-solid fa-file"></i><span>PROJECTS</span></li>
-                    <li><i class="fa-solid fa-address-book"></i><span>CONTACT</span></li>
+                    <a href="#"><li id="btn-about" class="active" data-target="about"><i class="fa-solid fa-user"></i><span>ABOUT</span></li></a>
+
+                    <a href="/resume/resume.html"><li id="btn-resume" data-target="resume"><i class="fa-solid fa-paperclip"></i><span>RESUME</span></li></a>
+
+                    <a href="/projects/projects.html"><li id="btn-projects" data-target="projects"><i class="fa-solid fa-file"></i><span>PROJECTS</span></li></a>
+
+                    <a href="/articles/articles.html"><li id="btn-articles" data-target="articles"><i class="fa-regular fa-newspaper"></i><span>ARTICLES</span></li></a>
+
+                    <a href="/contacts/contacts.html"><li id="btn-contact" data-target="contact"><i class="fa-solid fa-address-book"></i><span>CONTACT</span></li></a>
                 </ul>
             </section>
         </nav>
@@ -43,7 +48,7 @@
             <video src="/Video/banner.mp4" width="" class="profile-banner" autoplay loop muted ></video>
 
             <img src="/image/dp.jpg" alt="" class="profile-DP">
-            <h1 class="profile-name">AZMAN SARKER</h1>
+            <h1 class="profile-name">Azman Sarker Ifrad</h1>
 
             
             <div class="profile-bio"></div><div class="cursor"></div>
@@ -58,26 +63,40 @@
 
             <div class="profile-buttons">
                 <button class="down-button" id="link-2">DOWNLOAD CV <i class="fa-solid fa-download"></i></button>
-                <button class="down-button" id="link-2">CONTACT ME <i class="fa-solid fa-plane-up"></i></button>
+                <button class="down-button" id="link-2">CONTACT ME <i class="fa-regular fa-paper-plane"></i></button>
             </div>
 
          </div>
 
-         <div class="outer">
-            <div class="about">
+
+
+
+
+
+
+            <!-- outer start -->
+
+
+        <div class="outer">
+
+
+                <!-- about -->
+
+                
+            <div class="about boxx active" id="about">
                 <h1 class="info-about"><span class="about-a">A</span>bout Me</h1>
                 <h3 class="info-bio-name">hey, there 👋</h3>
                 <h4 class="info-bio">A system administrator, or sysadmin, Data scientist, Systems engineer from USA, California. I have rich experience in managing, troubleshooting, licensing, and updating hardware and software assets.</h4>
 
                 <div class="infos">
                     <div class="info-left">
-                       <span> Age: ... 18</span>
-                        <span>Freelance: ... Available</span>
+                       <span> Age: ... <span class="colorchnage">18</span></span>
+                        <span>Freelance: ... <span class="colorchnage">Available</span></span>
                     </div>
 
                     <div class="info-right">
-                       <span> Residence: ... Bangladesh</span>
-                        <span>Address: ... Dhaka, Bangladesh</span>
+                       <span> Residence: ... <span class="colorchnage">Bangladesh</span></span>
+                        <span>Address: ... <span class="colorchnage">Dhaka, Bangladesh</span></span>
                     </div>
                 </div>
 
@@ -145,13 +164,92 @@
                 </div>
 
 
-                <h1 class="info-about info-about-Testimonials"><span class="about-a">T</span>estimonials</h1>
+                <h1 class="info-about info-about-clients"><span class="about-a">C</span>lients</h1>
+                <div class="box-client-main">
+                    <div class="box-client">
+                       <a href="https://www.google.com/" target="_blank"> <img src="/image/google.png" alt=""class="clients-links" id="link-2"></a>
+                    </div>
 
+                    <div class="box-client">
+                       <a href="https://www.upwork.com/" target="_blank"> <img src="/image/upwork.png" alt=""class="clients-links" id="link-2"></a>
+                    </div>
 
+                    <div class="box-client">
+                        <a href="https://www.freelancer.com/" target="_blank"><img src="/image/freelancer.png" alt=""class="clients-links" id="link-2"></a>
+                    </div>
 
+                    <div class="box-client">
+                        <a href="https://www.fiverr.com/" target="_blank"><img src="/image/fiver.png" alt="" class="clients-links" id="link-2"></a>
+                    </div>
+                </div>
 
+                <h1 class="info-about info-about-clients"><span class="about-a">T</span>estimonials</h1>
+                    <div class="slider">
+                        <div class="sliderWrapper">
+                            <div class="Wrapper">
+                                <h2 class="slider-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                                <div class="wrapper-dp-main">
+                                    <img src="/image/testi1-184x184.jpg" alt="" class="slider-dp">
+                                </div>
+                                <div class="wrapper-info">
+                                    <h4 class="dp-name">Helen Floyd</h4>
+                                    <h5 class="dp-bio">Art Director</h5>
+                                </div>
+                            </div>
+
+                            <div class="Wrapper">
+                                <h2 class="slider-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                                <div class="wrapper-dp-main">
+                                    <img src="/image/avatar2-184x184.png" alt="" class="slider-dp">
+                                </div>
+                                <div class="wrapper-info">
+                                    <h4 class="dp-name"> Robert Chase</h4>
+                                    <h5 class="dp-bio"> CEO</h5>
+                                </div>
+                            </div>
+
+                            <div class="Wrapper">
+                                <h2 class="slider-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                                <div class="wrapper-dp-main">
+                                    <img src="/image/testi2-184x184.jpg" alt="" class="slider-dp">
+                                </div>
+                                <div class="wrapper-info">
+                                    <h4 class="dp-name">John Doe</h4>
+                                    <h5 class="dp-bio">Art Director</h5>
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+
+                    <h1 class="info-about info-about-Facts"><span class="about-a">F</span>un Facts</h1>
+
+                    <div class="FunFacts">
+                        <div class="FunFactsItem">
+                        <i class="fa-solid fa-bell box-icon" class=""></i>
+                        <P class="FunFacts-name">100+ Albumes Listened</P>
+                        </div>
+
+                        <div class="FunFactsItem">
+                         <i class="fa-solid fa-award box-icon"></i>
+                        <P class="FunFacts-name">15 Awards Won</P>
+                        </div>
+
+                        <div class="FunFactsItem">
+                        <i class="fa-solid fa-mug-hot box-icon"></i>
+                        <P class="FunFacts-name">1 000+ Cups Of Coffee</P>
+                        </div>
+
+                        <div class="FunFactsItem">
+                        <i class="fa-solid fa-flag box-icon"></i>
+                        <P class="FunFacts-name">10 Countries Visited</P>
+                        </div>
+                    </div>
 
             </div>
+
+
           </div>
 
 

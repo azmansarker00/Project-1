@@ -3,14 +3,6 @@ const icons = document.querySelectorAll('li');
 const icons2 = document.querySelectorAll("#link-2");
 const textElement = document.querySelector('.profile-bio');
 
-// DARK AND LIGHT SAYSTEM
-const darkLight = document.querySelector("#dark-light");
-const nav1 =document.querySelector(".nav-1");
-const nav2 =document.querySelector(".nav-2");
-const profileBox = document.querySelector(".profile-box");
-const profileName = document.querySelector(".profile-name");
-const buttons= document.querySelectorAll(".down-button");
-const profileLinks = document.querySelectorAll('.profile-links a');
 
 
 document.addEventListener('mousemove', (event) => {
@@ -92,43 +84,22 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
-// darkLight.addEventListener("click", ()=>{
-//     nav1.style.backgroundColor = 'white';
-//     nav1.style.color = 'black';
-
-//     nav2.style.backgroundColor = 'white';
-//     nav2.style.color = 'black';
-
-//     profileBox.style.backgroundColor = 'white';
-//     profileBox.style.color = 'black';
-
-//     profileName.style.color = 'black';
-
-//     buttons.style.color = 'black';
-    
-//     profileLinks.style.color = 'black';
 
 
-// })
-
-// darkLight.addEventListener("click", ()=>{
-//     nav1.style.backgroundColor = 'black';
-//     nav1.style.color = 'white';
-
-//     nav2.style.backgroundColor = 'black';
-//     nav2.style.color = 'white';
-
-//     profileBox.style.backgroundColor = 'black';
-//     profileBox.style.color = 'white';
-
-//     profileName.style.color = 'white';
-
-//     buttons.style.color = 'white';
-    
-//     profileLinks.style.color = 'white';
 
 
-// })
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
